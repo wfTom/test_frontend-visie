@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Visie-test
 
-## Getting Started
+<p align="center">
+   <img src="./.github/logo.png" alt="Visie" width="280"/>
+</p>
 
-First, run the development server:
+<p align="center">
+   <a href="https://www.linkedin.com/in/wellington-barros-593ba0137/">
+      <img alt="Wellington Barros" src="https://img.shields.io/badge/-Wellington%20Barros-8257E5?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wfTom/test_frontend-Visie?color=774DD6">
+</p>
+
+Project made to test the developer's fullstack job at Visie
+
+<p align="center">
+    <a href="README.md">English</a>
+    ·
+    <a href="README-pt.md">Portuguese</a>
+ </p>
+
+<div align="center">
+  <sub>Crud People to Visie. Built with ❤︎ by
+    <a href="https://github.com/wfTom">wfTom</a>
+  </sub>
+</div>
+
+<p align="center">
+   <a href="#bookmark-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#construction_worker-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#memo-licença">License</a>
+</p>
+  
+## :bookmark: About
+
+The **CRUD People Visie** is a Web and Server application of a CRUD of people, in this application is possibible created a new people, updated and deleted.
+
+<div>
+   <img src="./.github/screenshot1.png" width="400px">
+   <img src="./.github/screenshot2.png" width="400px">
+</div>
+<div>
+   <img src="./.github/screenshot3.png" width="400px">
+   <img src="./.github/screenshot4.png" width="400px">
+</div>
+<div>
+   <img src="./.github/screenshot5.png" width="400px">
+   <img src="./.github/screenshot6.png" width="400px">
+</div>
+<div>
+   <img src="./.github/screenshot7.png" width="400px">
+</div>
+
+- ### **Requirements**
+
+  - It is **necessary** to have **[Node.js](https://nodejs.org/en/)** installed
+    on the computer.
+  - It is **optional** to have **[Git](https://git-scm.com/)** installed and
+    configured on the computer, but it is better to have.
+  - Also, it is **necessary** to have a package manager be the
+    **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone Repository
+$ git clone https://github.com/wfTom/test_frontend-visie
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📦 Run API
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Access API repository at https://github.com/wfTom/test_backend-Visie
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 💻 Run Web Project
 
-## Learn More
+```bash
+# Go to web folder
+$ cd test_frontend-visie
 
-To learn more about Next.js, take a look at the following resources:
+# Install Dependencies
+$ npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Run Application
+$ npm dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Go to http://localhost:3000/ to see the result.
 
-## Deploy on Vercel
+# :closed_book: License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Released in 2023 :closed_book: License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Made with love by [wfTom](https://github.com/wfTom) 🚀. This project is under
+the [MIT license](./LICENSE).
+
+Give a ⭐️ if this project helped you!
